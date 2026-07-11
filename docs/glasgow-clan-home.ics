@@ -1,0 +1,8 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Glasgow Clan Home Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Glasgow Clan Home Games
+X-WR-CALDESC:Run the GitHub Action once to populate this calendar with home fixtures.
+END:VCALENDAR
