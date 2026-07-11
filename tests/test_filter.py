@@ -39,7 +39,7 @@ class HomeDetectionTests(unittest.TestCase):
         output, _ = build_calendar(source)
         _, events, _ = split_calendar(output)
         self.assertEqual(1, len(events))
-        self.assertIn("SUMMARY:Glasgow Clan vs Dundee Stars", output)
+        self.assertIn("SUMMARY:🏒 Clan vs Dundee Stars", output)
         self.assertIn("TRIGGER:-P1D", output)
         self.assertIn("TRIGGER:-PT2H", output)
 
